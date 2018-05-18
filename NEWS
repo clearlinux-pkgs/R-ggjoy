@@ -1,3 +1,8 @@
+ggjoy 0.4.1
+----------------------------------------------------------------
+- Package has been stripped down to the absolute minimum needed to reexport ggridges
+  functions under their old names.
+
 ggjoy 0.4.0
 ----------------------------------------------------------------
 - All code has been moved over to package ggridges. As of this version, ggjoy
