@@ -4,7 +4,7 @@
 #
 Name     : R-ggjoy
 Version  : 0.4.1
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/ggjoy_0.4.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ggjoy_0.4.1.tar.gz
 Summary  : Joyplots in 'ggplot2'
