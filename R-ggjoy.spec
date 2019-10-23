@@ -4,7 +4,7 @@
 #
 Name     : R-ggjoy
 Version  : 0.4.1
-Release  : 22
+Release  : 23
 URL      : https://cran.r-project.org/src/contrib/ggjoy_0.4.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ggjoy_0.4.1.tar.gz
 Summary  : Joyplots in 'ggplot2'
@@ -12,13 +12,12 @@ Group    : Development/Tools
 License  : GPL-2.0
 Requires: R-ggplot2
 Requires: R-ggridges
-Requires: R-munsell
-Requires: R-plyr
 BuildRequires : R-ggplot2
 BuildRequires : R-ggridges
 BuildRequires : R-munsell
 BuildRequires : R-plyr
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 ggjoy
@@ -33,10 +32,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1562198926
+export SOURCE_DATE_EPOCH=1571837406
 
 %install
-export SOURCE_DATE_EPOCH=1562198926
+export SOURCE_DATE_EPOCH=1571837406
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
